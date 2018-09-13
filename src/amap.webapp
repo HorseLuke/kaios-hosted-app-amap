@@ -1,0 +1,34 @@
+{
+  "name": "AMap",
+  "display": "Gaode Maps Unofficial",
+  "description": "Gaode Maps Unofficial",
+  "subtitle": "Gaode Maps Unofficial",
+  "theme": "#3367D6",
+  "version": "2018.09.1301",
+  "start_url": "https://m.amap.com/",
+  "origin": "app://m.amap.com/",
+  "icons": {
+    "56": "http://127.0.0.1/gaode-icon.jpg",
+    "84": "http://127.0.0.1/gaode-icon.jpg"
+  },
+  "developer": {
+    "name": "Horse Luke",
+    "url": "https://www.orztip.com"
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Required to show user's location on map"
+    },
+    "audio-capture": {
+      "description": "Required for voice input"
+    },
+    "audio-channel-content": {
+      "description": "Required for voice input"
+    }
+  },
+  "default_locale": "zh-CN",
+  "fullscreen": true,
+  "cursor":true,
+  "display":"standalone",
+  "orientation":"portrait-primary"
+}
